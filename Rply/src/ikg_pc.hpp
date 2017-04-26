@@ -844,7 +844,7 @@ inline double difference_micros(timepoint start, timepoint end)
 		timepoint after = now();
 
 		// Good place to put a breakpoint!
-		if (verbose) std::cout << "Parsing took " << difference_micros(before, after) << "μs: " << endl ;
+		if (verbose) std::cout << "Parsing took " << difference_micros(before, after) << "μs: " << std::endl ;
 /*		std::cout << "\tRead " << verts.size() << " total vertices (" << vertexCount << " properties)." << std::endl;
 		std::cout << "\tRead " << norms.size() << " total normals (" << normalCount << " properties)." << std::endl;
 		std::cout << "\tRead " << colors.size() << " total vertex colors (" << colorCount << " properties)." << std::endl;
