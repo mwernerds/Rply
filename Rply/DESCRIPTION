@@ -1,0 +1,14 @@
+Package: Rply
+Type: Package
+Title: Load and provide PLY files to R sessions
+Version: 1.0
+Date: 2017-04-24
+Author: Your Name
+Maintainer: Martin Werner<martin@martinwerner.de>
+Description: Allows to load PLY files from the Institute for Cartography.
+License: GPL (>= 2)
+SystemRequirements: C++11
+Imports: Rcpp (>= 0.12.10)
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2017-04-26 14:31:09 UTC; root
